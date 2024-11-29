@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2f326515-67a6-4db9-95da-1a1b5732823a",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Literary Fiction",
+    "publicationYear": "1866"
+  },
+  {
+    "id": "9cf1e327-2ab9-415d-8c71-4d86fb923d7b",
+    "title": "The Long Walk",
+    "author": "Stephen King",
+    "genre": "Horror Fiction",
+    "publicationYear": "1979"
+  },
+  {
+    "id": "9fe68931-c910-4876-8b8d-11dbed88a9c9",
+    "title": "House of Leaves",
+    "author": "Mark Z. Danielewski",
+    "genre": "Ergodic literature",
+    "publicationYear": "2000"
+  }
+]

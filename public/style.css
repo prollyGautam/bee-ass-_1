@@ -1,0 +1,57 @@
+body{
+    margin: 20px;
+}
+
+.form-container, .search-container {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 5px 0 2px;
+}
+
+form input, form button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 30%;
+}
+
+.search-container input, .search-container button {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.search-container input {
+    width: 20%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    padding: 6px 10px;
+    margin: 2px;
+}
+
+.addBook{
+    width: 6%;
+}
+
+button.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.delete {
+    background-color: #f44336;
+    color: white;
+}

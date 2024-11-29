@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Book Collection</h1>
+
+    <div class="form-container">
+        <h2>Add a New Book</h2>
+        <form id="book-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required>
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre">
+            <label for="publicationYear">Publication Year:</label>
+            <input type="number" id="publicationYear" name="publicationYear">
+            <br>
+            <button type="submit" class="addBook">Add Book</button>
+        </form>
+    </div>
+
+    <div class="search-container">
+        <h2>Search Books</h2>
+        <input type="text" id="search-input" placeholder="Search by title, author, or ISBN">
+        <button id="search-button">Search</button>
+    </div>
+
+    <div class="books-list">
+        <h2>Books List</h2>
+        <table id="books-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Publication Year</th>
+                    <th>ISBN</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
